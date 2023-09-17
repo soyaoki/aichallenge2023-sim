@@ -19,4 +19,8 @@
     <include file="$(find-pkg-share initialpose_publisher)/launch/initialpose_publisher.launch.xml" />
 
     <include file="$(find-pkg-share self_driving_controller)/launch/self_driving_controller.launch.xml" />
+
+    <group>
+      <node pkg="forced_turnaround_operator" exec="forced_turnaround_operator"/>
+    </group>
 </launch>

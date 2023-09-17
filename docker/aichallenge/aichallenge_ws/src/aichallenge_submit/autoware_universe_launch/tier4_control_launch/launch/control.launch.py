@@ -75,7 +75,7 @@ def launch_setup(context, *args, **kwargs):
             ("~/output/lateral_diagnostic", "lateral/diagnostic"),
             ("~/output/slope_angle", "longitudinal/slope_angle"),
             ("~/output/longitudinal_diagnostic", "longitudinal/diagnostic"),
-            ("~/output/control_cmd", "control_cmd"),
+            ("~/output/control_cmd", "control_cmd_raw"),
         ],
         parameters=[
             {

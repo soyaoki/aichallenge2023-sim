@@ -1,16 +1,16 @@
 /**:
   ros__parameters:
-    ld_velocity_ratio: 2.4
-    ld_lateral_error_ratio: 3.6
-    ld_curvature_ratio: 120.0
-    long_ld_lateral_error_threshold: 0.5
-    min_lookahead_distance: 4.35
-    max_lookahead_distance: 15.0
     converged_steer_rad: 0.1
-    reverse_min_lookahead_distance: 7.0
-    prediction_ds: 0.3
-    prediction_distance_length: 21.0
-    resampling_ds: 0.1
-    curvature_calculation_distance: 4.0
+    curvature_calculation_distance: 4.135196494153562
     enable_path_smoothing: false
+    ld_curvature_ratio: 77.76040727971251
+    ld_lateral_error_ratio: 3.288501827661224
+    ld_velocity_ratio: 3.2482420907396
+    long_ld_lateral_error_threshold: 0.6000652092572867
+    max_lookahead_distance: 6.752949063854896
+    min_lookahead_distance: 2.2763442329826624
     path_filter_moving_ave_num: 25
+    prediction_distance_length: 3.591890280949857
+    prediction_ds: 0.04308033618438476
+    resampling_ds: 0.8362307370152532
+    reverse_min_lookahead_distance: 7.0

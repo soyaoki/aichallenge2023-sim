@@ -8,10 +8,10 @@
     launch_blind_spot: true
     launch_detection_area: true
     launch_virtual_traffic_light: true
-    launch_occlusion_spot: false
+    launch_occlusion_spot: true
     launch_no_stopping_area: true
-    launch_run_out: false
-    launch_speed_bump: false
+    launch_run_out: true
+    launch_speed_bump: true
 
     # Autoware-Mini (Uncomment the lines below to try Autoware-Mini)
     # launch_stop_line: true
